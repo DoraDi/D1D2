@@ -48,7 +48,7 @@ public class Servlet extends HttpServlet
         		message = "You do not have permission to enter, ";
     		response.getWriter().append(message + user);
 		
-		response.getWriter().append("/nControl executed by: ").append(request.getContextPath());
+		response.getWriter().append("\nControl executed by: ").append(request.getContextPath());
 	}
 
 	/**
