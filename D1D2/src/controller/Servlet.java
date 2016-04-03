@@ -62,6 +62,8 @@ public class Servlet extends HttpServlet
 	boolean control(String a, String b)
 	{	
 		boolean c = false;
+		if (a.equals("admin") && b.equals("1234"))
+				c = true;		
 		return c;
 	}
 
